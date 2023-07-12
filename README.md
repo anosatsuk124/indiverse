@@ -1,24 +1,26 @@
 # Indiverse
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ---
 
 **⚠️NOTICE**
 
-This is working in progress. It means that this specification **will be modified with some breaking changes frequently**.
+This is a work in progress. This specification is subject **to frequent modifications with potential breaking changes**.
 
 ---
 
 ## About
 
-Indiverse is a small P2P (peer-to-peer) social-networking protocol for general purposes.
+Indiverse is a small peer-to-peer (P2P) social networking protocol designed for general purposes.
 
 ### Concepts
 
-- **No confusability** in users' points of view.
+- **No confusion** for users' perspectives.
 
-- **Decentralized and distributed** but easy to use.
+- **Decentralized and distributed** while remaining user-friendly.
 
-- **Robust portabilities** to other languages or platforms implementation due to implementation with modern and Web-based specs.
+- **High portability** to other languages or platforms, thanks to its implementation using modern web-based specifications.
 
 ### Known implementations
 

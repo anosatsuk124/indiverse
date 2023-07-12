@@ -1,7 +1,7 @@
 ls:
-  .md: SCREAMING_SNAKE_CASE
-  docs:
-    .dir: snake_case
+    .md: SCREAMING_SNAKE_CASE
+    docs:
+        .dir: snake_case
 
 ignore:
-  - node_modules
+    - node_modules
