@@ -6,7 +6,10 @@
     },
     "filters": {},
     "rules": {
-        "write-good": {}
+        "write-good": {
+            "passive": false,
+            "thereIs": false
+        }
     },
     "prh": { "rulePaths": ["./prh.yml"] }
 }

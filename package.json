@@ -1,15 +1,18 @@
 {
-    "name": "spec",
+    "name": "Indiverse",
     "version": "0.0.0",
     "license": "Apache-2.0",
     "private": true,
     "scripts": {
         "prepare": "husky install",
-        "lint": "textlint -f pretty-error *.md",
+        "lint": "run-p lint:*",
+        "lint:ls-lint": "ls-lint",
+        "lint:text-lint": "textlint -f pretty-error *.md",
         "fmt": "prettier --write .",
         "commit": "git-cz"
     },
     "devDependencies": {
+        "@ls-lint/ls-lint": "^2.0.1",
         "git-cz": "^4.9.0",
         "husky": "^8.0.3",
         "npm-run-all": "^4.1.5",
