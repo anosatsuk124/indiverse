@@ -1,0 +1,10 @@
+version: 1
+rules:
+    - expected: Indiverse
+      pattern:
+          - indiverse
+    # Specification
+    - expected: specification
+      pattern: /[sS]pecs*/
+    - expected: Specification
+      pattern: /[sS]pecs*/

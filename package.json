@@ -1,0 +1,21 @@
+{
+    "name": "spec",
+    "version": "0.0.0",
+    "license": "Apache-2.0",
+    "private": true,
+    "scripts": {
+        "prepare": "husky install",
+        "lint": "textlint -f pretty-error *.md",
+        "fmt": "prettier --write .",
+        "commit": "git-cz"
+    },
+    "devDependencies": {
+        "git-cz": "^4.9.0",
+        "husky": "^8.0.3",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^3.0.0",
+        "textlint": "^13.3.3",
+        "textlint-rule-prh": "^5.3.0",
+        "textlint-rule-write-good": "^2.0.0"
+    }
+}

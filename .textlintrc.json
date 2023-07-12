@@ -1,0 +1,12 @@
+{
+    "plugins": {
+        "@textlint/markdown": {
+            "extensions": [".md"]
+        }
+    },
+    "filters": {},
+    "rules": {
+        "write-good": {}
+    },
+    "prh": { "rulePaths": ["./prh.yml"] }
+}
